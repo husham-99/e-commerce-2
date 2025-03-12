@@ -1263,8 +1263,9 @@ header .bottom-header .nav_links p{
         font-weight: bold;
         color: var(--main-color);
         border-bottom: 1px solid var(--border-color);
-        padding: 10px 50px;
+        padding: 10px 90px;
         letter-spacing: 5px;
+        font-family: "Jaini", system-ui;
     }
 
     header .bottom-header .category_nav{
@@ -1718,7 +1719,8 @@ header .bottom-header .nav_links p{
 
     footer .container .footer_logo{
 
-        font-size: 20px;
+        font-size: 25px;
+        font-family: "Jaini", system-ui;
     }
 
     footer .container .row h4{
