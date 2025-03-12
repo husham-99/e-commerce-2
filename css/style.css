@@ -1260,6 +1260,7 @@ header .bottom-header .nav_links p{
         color: var(--main-color);
         border-bottom: 1px solid var(--border-color);
         padding: 10px 50px;
+        letter-spacing: 5px;
     }
 
     header .bottom-header .category_nav{
@@ -1540,7 +1541,8 @@ header .bottom-header .nav_links p{
 
     header .top-header .search_box button{
 
-        height: 40px
+        height: 40px;
+        margin-left: auto;
     }
 
     header .top-header .search_box .select_box{
@@ -1562,12 +1564,18 @@ header .bottom-header .nav_links p{
 
     header .top-header .search_box .select_box select{
 
-        width: 140px
+        width: 100px;
+        font-size: 10px;
     }
 
     header .top-header .search_box .select_box input{
 
-        width: calc(100% - 140px)
+        width: calc(100% - 100px)
+    }
+
+    header .top-header .search_box input::placeholder{
+
+        font-size: 10px;
     }
 
     header .top-header .search_box .select_box select option{
@@ -1609,6 +1617,14 @@ header .bottom-header .nav_links p{
     .cart .items_in_cart .item_cart img{
 
         width: 70px
+    }
+
+    header .top-header .header_icons .icon .count{
+
+        height: 18px;
+        width: 18px;
+        line-height: 18px;
+        font-size: 9px;
     }
 
 
@@ -1661,6 +1677,19 @@ header .bottom-header .nav_links p{
         width: 30px;
         height: 30px
         
+    }
+
+    .product{
+
+
+    
+    padding: 0px 5px 10px 5px;
+    
+    }
+
+    .product .img_product{
+
+        padding: 0;
     }
 
 
