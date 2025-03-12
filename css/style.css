@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Jaini&display=swap');
+
 
 
 *{
@@ -108,6 +110,8 @@ header .top-header .logo{
     font-weight: bold;
     color: var(--main-color);
     letter-spacing: 5px;
+    font-family: "Jaini", system-ui;
+    
 }
 
 /*header .top-header .logo img{
@@ -1665,6 +1669,12 @@ header .bottom-header .nav_links p{
         font-size: 10px;
     }
 
+    .product .sale-precent{
+
+        padding: 4px 7px;
+        font-size: 10px;
+    }
+
     .product .icons .btn_add_cart{
 
         font-size: 10px;
@@ -1683,7 +1693,7 @@ header .bottom-header .nav_links p{
 
 
     
-    padding: 0px 5px 10px 5px;
+    padding: 5px 5px 10px 5px;
     
     }
 
@@ -1691,6 +1701,19 @@ header .bottom-header .nav_links p{
 
         padding: 0;
     }
+
+    .product .stars{
+
+        margin-bottom: 5px;
+    }
+
+    .product .product_name a{
+
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+
+    
 
 
     footer .container .footer_logo{
