@@ -1282,7 +1282,8 @@ header .bottom-header .nav_links p{
 
     header .bottom-header nav{
 
-        gap: 20px
+        gap: 20px;
+        height: 47px
     }
 
     .banner_4 .container .box{
@@ -1364,6 +1365,7 @@ header .bottom-header .nav_links p{
     header .bottom-header .login_signup{
 
         font-size: 12px;
+        gap: 10px
     }
     .top_slide h2{
 
@@ -1379,7 +1381,8 @@ header .bottom-header .nav_links p{
 
     header .bottom-header .login_signup .btn{
 
-        padding: 7px 10px;
+        padding: 10px;
+        gap: 5px
     }
 
     header .bottom-header .login_signup .btn i{
