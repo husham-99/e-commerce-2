@@ -1363,7 +1363,7 @@ header .bottom-header .nav_links p{
 
     header .bottom-header .login_signup{
 
-        font-size: 14px;
+        font-size: 12px;
     }
     .top_slide h2{
 
@@ -1536,17 +1536,21 @@ header .bottom-header .nav_links p{
 
     header .top-header .search_box{
 
-        margin: 10px auto 0;
+        margin: 5px auto 0;
     }
 
     header .top-header .search_box input{
 
         height: 40px;
+        width: 100%;
+        padding: 5px 0 5px 10px
     }
 
     header .top-header .search_box button{
 
         height: 40px;
+        width: 40px;
+        padding: 0 10px;
         margin-left: auto;
     }
 
