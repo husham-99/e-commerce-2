@@ -30,6 +30,15 @@ function open_close_cart(){
 
 }
 
+//change product img
+
+let target = document.getElementById('target')
+function changeImage(img){
+
+  target.src = img
+
+}
+
 
 // cart products
 

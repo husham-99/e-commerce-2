@@ -97,9 +97,9 @@
                     <ul class="nav_links">
                         <span onclick="open_close_menu()" class="close_menu"><i class="fa-regular fa-circle-xmark"></i></span>
                         <p>RAZZAN</p>
-                        <li class="active"><a href="">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="">About</a></li>
-                        <li><a href="produtcs.html">Product</a></li>
+                        <li class="active"><a href="products.html">Products</a></li>
                         <li><a href="">Blog</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
@@ -107,8 +107,8 @@
 
                 <div class="login_signup btns">
 
+                    
                     <a href="login.html" class="btn">Login<i class="fa-solid fa-right-to-bracket"></i></a>
-
                     <a href="signup.html" class="btn">Signup <i class="fa-solid fa-user-plus"></i></a>
                 </div>
             </div>
@@ -145,112 +145,40 @@
     </div>
 
 
-    <div class="slider">
+    <div class="product-section container">
 
-        <div class="container">
-
-            <div class="slide-swp mySwiper">
-
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-
-                        <a href="#"><img src="img/banner_home1.png" alt=""></a>
-                    </div>
-                    <div class="swiper-slide">
-
-                        <a href="#"><img src="img/banner_home2.png" alt=""></a>
-                    </div>
-                    
+        <div class="products">
+            <div class="product-img">
+                <div class="product-tibes">
+                    <img onclick="changeImage(this.src)" src="img/product/1.png" alt="">
+                    <img onclick="changeImage(this.src)" src="img/product/4.png" alt="">
+                    <img onclick="changeImage(this.src)" src="img/product/6.png" alt="">
+                    <img onclick="changeImage(this.src)" src="img/product/11.png" alt="">
                 </div>
-
-                <div class="swiper-pagination"></div>
-
+                <div class="product-target">
+                    <img id="target" src="img/product/8.png" alt="">
+                </div>
             </div>
-
-            <div class="banner_2">
-                <a href=""><img src="img/banner_home3.png" alt=""></a>
+            <div class="product-info">
+                <h1>Samsung 55 inch UHD 4K Smart TV With Recevie</h1>
+                <p>Availability: <span class="in-stock">in stock</span></p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="price">$140 <span class="old-price">$180</span></p>
+                <p>Categories: <span>Samsung</span> <span>Mobile</span></p>
+                <p>Tags: <span>Samsung galaxy </span> <span>Mobile</span> <span>Huawei</span></p>
+                <p>Share: <span>Samsung galaxy </span> <span>Mobile</span> <span>Huawei</span></p>
             </div>
         </div>
+
     </div>
 
-
-    <div class="banner_4">
-
-        <div class="container">
-
-            <div class="box">
-                <a href="" class="link-btn"></a>
-                <img src="img/banner3_1.png" alt="">
-
-                <div class="text">
-                    <h5>Break Disc</h5>
-                    <h5>deals on this</h5>
-
-                    <div class="sale">
-                        <p>Up <br> To</p>
-                        <span>70%</span>
-                        
-                    </div>
-
-                    <h6>shop now</h6>
-                </div>
-            </div>
-
-            <div class="box">
-                <a href="" class="link-btn"></a>
-                <img src="img/banner3_2.png" alt="">
-
-                <div class="text">
-                    <h5>Break Disc</h5>
-                    <h5>deals on this</h5>
-
-                    <div class="sale">
-                        <p>Up <br> To</p>
-                        <span>70%</span>
-                        
-                    </div>
-
-                    <h6>shop now</h6>
-                </div>
-            </div>
-
-            <div class="box">
-                <a href="" class="link-btn"></a>
-                <img src="img/banner3_3.png" alt="">
-
-                <div class="text">
-                    <h5>Break Disc</h5>
-                    <h5>deals on this</h5>
-
-                    <div class="sale">
-                        <p>Up <br> To</p>
-                        <span>70%</span>
-                        
-                    </div>
-
-                    <h6>shop now</h6>
-                </div>
-            </div>
-
-            <div class="box">
-                <a href="" class="link-btn"></a>
-                <img src="img/banner3_4.png" alt="">
-
-                <div class="text">
-                    <h5>Break Disc</h5>
-                    <h5>deals on this</h5>
-
-                    <div class="sale">
-                        <p>Up <br> To</p>
-                        <span>70%</span>
-                        
-                    </div>
-
-                    <h6>shop now</h6>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 
     <div class="slider_products slide">
 
@@ -280,114 +208,7 @@
         </div>
     </div>
 
-    <div class="banners">
 
-        <div class="container">
-
-            <div class="banner_boxes banner_2_img">
-
-                <a href="" class="box"><img src="img/banner_box4.jpg" alt=""></a>
-                <a href="" class="box"><img src="img/banner_box5.jpg" alt=""></a>
-            </div>
-        </div>
-    </div>
-
-    <div class="slider_products slide">
-
-        <div class="container">
-
-            <div class="slide_product mySwiper">
-
-                <div class="top_slide">
-                    <h2><i class="fa-solid fa-tags"></i>Electronics</h2>
-                </div>
-
-                <div class="products swiper-wrapper" id="swiper_electronic">
-
-                    
-
-                    
-
-
-                </div>
-
-                <div class="swiper-button-next btn_swip"></div>
-                <div class="swiper-button-prev btn_swip"></div>
-
-
-
-            </div>
-        </div>
-    </div>
-
-    <div class="slider_products slide">
-
-        <div class="container">
-
-            <div class="slide_product mySwiper">
-
-                <div class="top_slide">
-                    <h2><i class="fa-solid fa-tags"></i>Appliances</h2>
-                </div>
-
-                <div class="products swiper-wrapper" id="swiper_appliances">
-
-                    
-
-                    
-
-
-                </div>
-
-                <div class="swiper-button-next btn_swip"></div>
-                <div class="swiper-button-prev btn_swip"></div>
-
-
-
-            </div>
-        </div>
-    </div>
-
-
-    <div class="banners">
-
-        <div class="container">
-
-            <div class="banner_boxes banner_3_img">
-                <a href="" class="box"><img src="img/banner_box1.jpg" alt=""></a>
-                <a href="" class="box"><img src="img/banner_box2.jpg" alt=""></a>
-                <a href="" class="box"><img src="img/banner_box3.jpg" alt=""></a>
-            </div>
-        </div>
-    </div>
-
-    <div class="slider_products slide">
-
-        <div class="container">
-
-            <div class="slide_product mySwiper">
-
-                <div class="top_slide">
-                    <h2><i class="fa-solid fa-tags"></i>Mobiles</h2>
-                </div>
-
-                <div class="products swiper-wrapper" id="swiper_mobiles">
-
-                    
-
-                    
-
-
-                </div>
-
-                <div class="swiper-button-next btn_swip"></div>
-                <div class="swiper-button-prev btn_swip"></div>
-
-
-
-            </div>
-        </div>
-    </div>
 
     <footer>
         <div class="container">
@@ -449,13 +270,6 @@
         </div>
     </footer>
     
-
-
-
-
-
-
-
 
 
     <!-- Swiper JS -->
