@@ -1631,7 +1631,7 @@ header .bottom-header .nav_links p{
 
     .cart .items_in_cart .item_cart img{
 
-        width: 70px
+        width: 60px
     }
 
     header .top-header .header_icons .icon .count{
@@ -2352,12 +2352,20 @@ header .bottom-header .nav_links p{
 
     .products .product-img{
 
-        width: 100%
+        width: 100%;
+        justify-content: space-around;
+        padding: 0 20px;
     }
 
-    .products .product-img{
+    .products .product-img .product-target{
 
-        justify-content: space-around;
+        
+        width:50%;
+    }
+
+    .products .product-img .product-tibes{
+
+        width: 45%
     }
 
     .product-info h1{
