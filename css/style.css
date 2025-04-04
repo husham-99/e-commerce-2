@@ -1788,9 +1788,9 @@ header .bottom-header .nav_links p{
     flex-direction: column;
     gap: 15px;
     padding: 20px 15px;
-    background-color: rgb(194, 194, 194);
+    /* background-color: #eee; */
     border-radius: 3px;
-    box-shadow: 0 0 5px 1px #7b7b7b;
+    box-shadow: 0 0 5px 0 #7b7b7b;
 }
 
 .container-input .form h1{
@@ -1805,6 +1805,7 @@ header .bottom-header .nav_links p{
     padding: 0 5px;
     height: 30px;
     border-radius: 3px;
+    background-color: #eee;
 }
 
 .container-input .form button{
@@ -1816,6 +1817,7 @@ header .bottom-header .nav_links p{
     border-radius: 3px;
     color:rgb(106, 22, 185);
     font-weight: bold;
+    /* background-color: #eee; */
     /* box-shadow: 0 0 2px 1px #0000006b; */
 }
 
@@ -1829,12 +1831,13 @@ header .bottom-header .nav_links p{
 
 .container-input .form textarea{
 
-    height: 100px;
+    height: 130px;
     resize: none;
     padding: 5px;
     border: none;
     outline: none;
     border-radius: 3px;
+    background-color: #eee;
 }
 
 
@@ -1854,7 +1857,7 @@ header .bottom-header .nav_links p{
 
     .container-input .form label{
 
-        font-size: 14px;
+        font-size: 12px;
         color: #999;
     }
 
