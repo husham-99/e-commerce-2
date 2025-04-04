@@ -1802,6 +1802,8 @@ header .bottom-header .nav_links p{
 .container-input .form hr{
 
     border-color: #eee;
+    height: 5px;
+    
 }
 
 .container-input .form input{
@@ -1810,7 +1812,7 @@ header .bottom-header .nav_links p{
     padding: 0 5px;
     height: 30px;
     border-radius: 3px;
-    background-color: #eee;
+    background-color: #eeeeee63;
 }
 
 .container-input .form button{
