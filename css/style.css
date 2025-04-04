@@ -1796,15 +1796,12 @@ header .bottom-header .nav_links p{
 .container-input .form h1{
 
     text-align: center;
-    color:rgb(106, 22, 185)
+    color:rgb(106, 22, 185);
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
 }
 
-.container-input .form hr{
 
-    border-color: #eee;
-    height: 5px;
-    
-}
 
 .container-input .form input{
 
