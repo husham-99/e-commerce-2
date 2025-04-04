@@ -1799,6 +1799,11 @@ header .bottom-header .nav_links p{
     color:rgb(106, 22, 185)
 }
 
+.container-input .form hr{
+
+    border-color: #eee;
+}
+
 .container-input .form input{
 
     width: 100%;
