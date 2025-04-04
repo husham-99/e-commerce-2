@@ -1812,6 +1812,13 @@ header .bottom-header .nav_links p{
     background-color: #eeeeee63;
 }
 
+.container-input .form a{
+
+    text-align: right;
+    font-size: 12px;
+    color: #1d1f22;
+}
+
 .container-input .form button{
 
     height: 30px;
@@ -1841,7 +1848,7 @@ header .bottom-header .nav_links p{
     border: none;
     outline: none;
     border-radius: 3px;
-    background-color: #eee;
+    background-color: #eeeeee63;
 }
 
 
