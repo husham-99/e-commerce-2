@@ -1862,11 +1862,7 @@ header .bottom-header .nav_links p{
         margin: 0px 0px 50px 0px
     }
 
-    .container-input .form label{
-
-        font-size: 12px;
-        color: #999;
-    }
+    
 
     .container-input .form h1{
 
@@ -1944,11 +1940,7 @@ header .bottom-header .nav_links p{
     border: 1px solid #7c4dff6c
 }
 
-.checkout-section .address label{
 
-    margin: 0 15px;
-    color:#7b7b7b
-}
 
 
 .checkout-section .left .coupon-code{
@@ -1988,11 +1980,7 @@ header .bottom-header .nav_links p{
     border: 1px solid #7c4dff6c
 }
 
-.checkout-section .left .coupon-code label{
 
-    margin: 0 15px;
-    color:#7b7b7b
-}
 
 
 .checkout-section .checkout-items{
