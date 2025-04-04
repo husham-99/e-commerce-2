@@ -1796,7 +1796,7 @@ header .bottom-header .nav_links p{
 .container-input .form h1{
 
     text-align: center;
-    color:rgb(106, 22, 185);
+    color:var(--main-color);
     border-bottom: 1px solid #eee;
     padding-bottom: 20px;
 }
@@ -1826,7 +1826,7 @@ header .bottom-header .nav_links p{
     cursor: pointer;
     border: none;
     border-radius: 3px;
-    color:rgb(106, 22, 185);
+    color:var(--main-color);
     font-weight: bold;
     /* background-color: #eee; */
     /* box-shadow: 0 0 2px 1px #0000006b; */
