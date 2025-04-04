@@ -1808,7 +1808,6 @@ header .bottom-header .nav_links p{
     width: 100%;
     padding: 0 5px;
     height: 30px;
-    border-radius: 3px;
     background-color: #eeeeee63;
 }
 
@@ -1825,11 +1824,9 @@ header .bottom-header .nav_links p{
     font-size: 14px;
     cursor: pointer;
     border: none;
-    border-radius: 3px;
     color:var(--main-color);
     font-weight: bold;
-    /* background-color: #eee; */
-    /* box-shadow: 0 0 2px 1px #0000006b; */
+    
 }
 
 .container-input .form span{
@@ -1847,7 +1844,6 @@ header .bottom-header .nav_links p{
     padding: 5px;
     border: none;
     outline: none;
-    border-radius: 3px;
     background-color: #eeeeee63;
 }
 
